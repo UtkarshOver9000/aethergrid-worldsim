@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vercel/
+
+# Per-society detail exports written by generate_district.py. The renderer
+# never reads them (the district view is built from viz/data/district.json's
+# per-tick rollups), and they are ~57 MB. Regenerate with:
+#   python -m aethergrid.worldsim.generate_district
+viz/data/soc_*.json
