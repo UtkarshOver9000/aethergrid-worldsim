@@ -22,7 +22,9 @@ viz/data/soc_*.json
 !viz3d/README.md
 
 # Local tooling
-.claude/
 .pytest_cache/
 __pycache__/
 *.pyc
+
+# Analysis output (not used by the site)
+reports/
